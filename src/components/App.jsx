@@ -21,30 +21,130 @@ const App = () => {
           padding='py-3'
         
         >
-          <Button type='(' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
-          <Button type=')' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
-          <Button type='%' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
-          <Button type='AC' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
-          
-          <Button type='7' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='8' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='9' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='/' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
+          <Button
+          type='('
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
+        <Button
+          type=')'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
+        <Button
+          type='%'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
+        <Button
+          type='AC'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
 
-          <Button type='4' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='5' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='6' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='*' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
+        <Button
+          type='7'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='8'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='9'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='/'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
 
-          <Button type='1' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='2' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='3' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='-' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
+        <Button
+          type='4'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='5'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='6'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='x'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
 
-          <Button type='.' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='0' backgroundColor='bg-zinc-700'hover='hover:bg-zinc-600'/>
-          <Button type='=' backgroundColor='bg-indigo-800'hover='hover:bg-indigo-600'/>
-          <Button type='+' backgroundColor='bg-gray-700'hover='hover:bg-gray-600'/>
+        <Button
+          type='1'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'  
+          setValue={setValue}  
+        />
+        <Button
+          type='2'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='3'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='-'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
+
+        <Button
+          type='.'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='0'
+          backgroundColor='bg-zinc-700'
+          hover='hover:bg-zinc-600'
+          setValue={setValue}
+        />
+        <Button
+          type='='
+          backgroundColor='bg-indigo-800'
+          hover='hover:bg-indigo-700'
+          setValue={setValue}
+        />
+        <Button
+          type='+'
+          backgroundColor='bg-gray-700'
+          hover='hover:bg-gray-600'
+          setValue={setValue}
+        />
           
         </Box>
       </Box>
